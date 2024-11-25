@@ -56,13 +56,13 @@ section .head {
 }
 
 .hero-section::before {
-  left: -90;
+  left: -90px !important;
   background-image: url("../public/assets/left.png"); /* Replace with your left image path */
   background-position: left center;
 }
 
 .hero-section::after {
-  right: -90;
+  right: -90px !important;
   background-image: url("../public/assets/right.png"); /* Replace with your right image path */
   background-position: right center;
 }
